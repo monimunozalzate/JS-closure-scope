@@ -6,3 +6,8 @@ function fruits() {
         const fruit3 = 'banana'; //block scope
     }
 }
+nameOfDog("Elmo");
+
+function nameOfDog(name) {
+    console.log(name);
+};
